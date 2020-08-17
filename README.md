@@ -4,11 +4,13 @@ A PowerShell script that checks if a service or a process is running or is stopp
 The script ends with exit code 0 if the condition matches.
 For example:
 	Request: Check if Service SMA_ServMan is Running.
+	
 	Result: Service SMA_ServMan is Running.
 
 The script ends with exit code 200 if the condition does not match.
 For example:
 	Request: Check if Service SMA_ServMan is Running.
+	
 	Result: Service SMA_ServMan is Stopped.
 
 It also allows an execution for a single check (checks if the service/process is running/stopped once) or an execution for a timed check (using start/end date/time using a specific interval).
